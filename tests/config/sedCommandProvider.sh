@@ -1,2 +1,2 @@
 #!/bin/bash
-sed -i "s/'providers' => \[/'providers' => \[ @@@namespacevendor\\\\@@@namespacepackage_name\\\\@@@providerpackage_nameServiceProvider::class,/g" ./config/app.php
+sed -i "s/'providers' => \[/'providers' => \[ Padosoft\\\\Testtravis17\\\\Testtravis17ServiceProvider::class,/g" ./config/app.php
